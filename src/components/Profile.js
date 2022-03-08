@@ -5,8 +5,6 @@ import { GoogleLogout } from "react-google-login";
 
 const clientId = process.env.REACT_APP_CLIENT_ID;
 
-console.log("CLIENT ID", clientId);
-
 const LogoutPrompt = () => {
   const navigate = useNavigate();
   const onSuccess = () => {
